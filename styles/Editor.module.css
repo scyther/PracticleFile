@@ -1,0 +1,18 @@
+.main {
+    padding: 0.3rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.window {
+    flex: 1;
+}
+
+.compiler {
+    height: 400px;
+    width: 500px;
+    background-color: black ;
+}
