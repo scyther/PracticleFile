@@ -11,7 +11,6 @@ const CodeEditor = ({ language, onMount }) => {
       defaultValue="// write your code here"
       language={language}
       onMount={onMount}
-      contextMenu="false"
     />
   );
 };

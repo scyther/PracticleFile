@@ -12,6 +12,13 @@ const Editor = () => {
 
   const handleEditorDidMount = (editor, monaco) => {
     editorRef.current = editor;
+    editor.updateOptions({ contextmenu: false })
+    editor.onKeyDown((event)=>{
+      const {keyCode, ctrlKey, metaKey} = event;
+      if((keyCode === 33 || 52) && (metaKey || ctrlKey)){
+        event.preventDefault();
+      }
+    });
   };
 
   const showValue = () => {
@@ -19,7 +26,7 @@ const Editor = () => {
   };
   const [language, setLanguage] = useState("C++");
   return (
-    <div className={styles.main}>
+    <div className={styles.main} onContextMenu={(e) => {e.preventDefault()}}>
       <div className={styles.editor}>
         <h1>Code Editor </h1>
         <div class="buttons">
@@ -43,7 +50,7 @@ const Editor = () => {
         <h1>Compiler</h1>
         <input type="text" placeholder="Enter Your Input Here"></input>
         <div className={styles.compiler}>
-     
+           <p style={{color: "white"}}></p>
         </div>
       </div>
     </div>

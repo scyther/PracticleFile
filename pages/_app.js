@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 export default function Application({ Component, pageProps }) {
   return (
     <Layout>
-      <Component {...pageProps} />
+      <Component {...pageProps}/>
     </Layout>
   );
 }
