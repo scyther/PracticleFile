@@ -1,18 +1,31 @@
 .main {
-    padding: 0.3rem 0;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+  padding: 0.3rem 0;
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 90vh;
+  width: 100vw;
+  flex-wrap: wrap;
+}
+.editor {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+}
 
-.window {
-    flex: 1;
+.compilerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .compiler {
-    height: 400px;
-    width: 500px;
-    background-color: black ;
+  height: 300px;
+  width: 400px;
+  background-color: #1e1e1e;
 }

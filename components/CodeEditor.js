@@ -6,12 +6,12 @@ const CodeEditor = ({ language, onMount }) => {
     <Editor
       theme="vs-dark"
       height="400px"
-      width="500px"
-      defaultLanguage="C++"
+      width="450px"
+      defaultLanguage="javascript"
       defaultValue="// write your code here"
       language={language}
       onMount={onMount}
-      contextmenu="false"
+      contextMenu="false"
     />
   );
 };

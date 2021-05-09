@@ -7,7 +7,7 @@ const Home = () => {
     <main className={styles.main}>
       <h1 className={styles.title}>
         Welcome to 📒{" "}
-        <Link href="/">
+        <Link href="/editor">
           <a>Practicle File</a>
         </Link>
       </h1>
