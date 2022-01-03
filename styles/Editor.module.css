@@ -1,20 +1,14 @@
 .main {
-  padding: 0.3rem 0;
-  flex: 1;
   display: flex;
-  justify-content: space-evenly;
+  min-width: -webkit-fill-available;
   align-items: center;
-  height: 90vh;
-  width: 100vw;
-  flex-wrap: wrap;
+  flex-direction: column
 }
 .editor {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  width: 400px;
-  height: 400px;
 }
 
 .compilerContainer {
@@ -25,7 +19,6 @@
 }
 
 .compiler {
-  height: 300px;
-  width: 400px;
   background-color: #1e1e1e;
+  border-radius: 20px
 }

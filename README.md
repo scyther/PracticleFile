@@ -1,9 +1,16 @@
 
-## Online Practicle File
+# ![Favicon](https://raw.githubusercontent.com/scyther/PracticleFile/main/public/favicon.ico) Coding Assignments
 
-A Web App for students to create Practicle Files (Coding Subjects) directly in Web Browser.
+A Browser based code-editor with ***copy-paste DISABLED*** to submit coding assignments online.
 
+[Live Demo](https://practicle-file.vercel.app/editor)
+
+---
 ## Features:
-  1. Browser based compiler
-  2. No copy-paste allowed (Student can get a practice on syntax)
-  3. VS code Text Editor
+- Added:
+  1. Copy/Paste **DISABLED** 
+  2. VS code like Text Editor with suggestions
+- Still in Development:
+  1. Browser based compiler.
+  2. User Authentication
+
